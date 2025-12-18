@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mälardalen Rent & Fint</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__brand">
+      <img class="brand-logo" src="logo.png" alt="Mälardalen Rent &amp; Fint">
+      <div class="brand-text">
+        
+      </div>
+    </div>
+    <nav class="nav__links">
+      <a href="#services">Tjänster</a>
+      <a href="#reviews">Kundomdömen</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <a class="nav__cta" href="#contact">Boka ett besök</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__bg">
+        <div class="bg-shape bg-shape--one"></div>
+        <div class="bg-shape bg-shape--two"></div>
+      </div>
+      <div class="hero__content reveal">
+        <p class="eyebrow">Städning med omtanke</p>
+        <h1>Välkommen till Mälardalen Rent &amp; Fint</h1>
+        <p class="lede">
+          Vi tar hand om hem och kontor i hela Mälardalen med diskret service,
+          noggrann planering och ett vänligt bemötande. Inga robotar, bara erfarna människor.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#contact">Boka hembesök</a>
+          <a class="button button--ghost" href="#services">Se våra tjänster</a>
+        </div>
+        <div class="trust-bar">
+          <span>⭐ 4.9 av 5</span>
+          <span>Över 1200 återkommande kunder</span>
+          <span>Lokalt familjeföretag</span>
+        </div>
+      </div>
+      <div class="hero__image reveal">
+        <div class="glass">
+          <div class="slider">
+            <div class="slider__track">
+              <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=900&q=80" alt="Stilrent vardagsrum">
+              <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80" alt="Professionell städning">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80" alt="Rent kök">
+              <img src="https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=900&q=80" alt="Golvslipning">
+              <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=900&q=80" alt="Modernt badrum">
+            </div>
+            <button class="slider__btn slider__btn--prev" aria-label="Föregående bild">‹</button>
+            <button class="slider__btn slider__btn--next" aria-label="Nästa bild">›</button>
+            <div class="slider__dots"></div>
+          </div>
+        </div>
+        <div class="floating-card">
+          <p>Nyckelfri städning</p>
+          <strong>Planerad efter ditt liv</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="pillars">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Varför kunderna stannar</p>
+        <h2>Mer än bara rent</h2>
+        <p class="lede">Vi lägger lika stor vikt vid kommunikation och trygghet som vid skinande ytor.</p>
+      </div>
+      <div class="grid three reveal">
+        <article class="card">
+          <div class="icon-circle">🧭</div>
+          <h3>Egen kontaktperson</h3>
+          <p>Du pratar med samma samordnare varje gång, så detaljerna aldrig tappas bort.</p>
+        </article>
+        <article class="card">
+          <div class="icon-circle">🧼</div>
+          <h3>Miljövänligt val</h3>
+          <p>Vi använder skonsamma medel och utrustning som tar hand om både hem och planet.</p>
+        </article>
+        <article class="card">
+          <div class="icon-circle">🕒</div>
+          <h3>Tidslöften</h3>
+          <p>Transparent planering och påminnelser i god tid, så att vardagen flyter på.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Våra tjänster</p>
+        <h2>Hjälp som passar ditt liv</h2>
+        <p class="lede">Från regelbunden hemstädning till flyttstädning och specialuppdrag.</p>
+      </div>
+      <div class="grid three reveal">
+        <article class="service-card">
+          <div class="service__icon">🏠</div>
+          <div class="service__top">
+            <h3>Hemstädning</h3>
+            <p>Återkommande städning med checklista anpassad till ditt hem och dina rutiner.</p>
+          </div>
+          <ul>
+            <li>Fast eller flexibel dag</li>
+            <li>Diskret nyckelhantering</li>
+            <li>Fönsterputs efter behov</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <div class="service__icon">📦</div>
+          <div class="service__top">
+            <h3>Flyttstädning</h3>
+            <p>Vi följer mäklarnas krav och lämnar bostaden redo för nästa kapitel.</p>
+          </div>
+          <ul>
+            <li>Garantistädning</li>
+            <li>Vitvaror och grovstäd ingår</li>
+            <li>Snabbt tidsfönster</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <div class="service__icon">🏢</div>
+          <div class="service__top">
+            <h3>Kontor & butik</h3>
+            <p>Representativt och fräscht för medarbetare och kunder, utan att störa verksamheten.</p>
+          </div>
+          <ul>
+            <li>Schemalagt före/efter öppettid</li>
+            <li>Papperskorg & återvinning</li>
+            <li>Extra fokus på kundytor</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <div class="service__icon">🪵</div>
+          <div class="service__top">
+            <h3>Golvslipning</h3>
+            <p>Vi ger dina trägolv nytt liv med professionell slipning och behandling.</p>
+          </div>
+          <ul>
+            <li>Slipning av alla trägolv</li>
+            <li>Lackering & oljning</li>
+            <li>Dammfri metod</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <div class="service__icon">✨</div>
+          <div class="service__top">
+            <h3>Fönsterputsning</h3>
+            <p>Kristallklara fönster som släpper in ljuset, invändigt och utvändigt.</p>
+          </div>
+          <ul>
+            <li>Både in- och utsida</li>
+            <li>Karmar och bågar ingår</li>
+            <li>Höga fönster med lift</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlight reveal">
+      <div class="highlight__content">
+        <h2>Vi lyssnar innan vi städar</h2>
+        <p>Varje uppdrag börjar med en kort genomgång av dina prioriteringar. Vi dokumenterar, följer upp och justerar löpande.</p>
+        <div class="chips">
+          <span>Checklista i app</span>
+          <span>Foto-återrapport</span>
+          <span>Trygg försäkring</span>
+        </div>
+      </div>
+      <div class="highlight__stats">
+        <div class="stat">
+          <strong>1+</strong>
+          <small>År i Mälardalen</small>
+        </div>
+        <div class="stat">
+          <strong>98%</strong>
+          <small>Nöjda återkommande kunder</small>
+        </div>
+        <div class="stat">
+          <strong>24h</strong>
+          <small>Support med svarstid</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Kundomdömen</p>
+        <h2>Pålitligt, personligt och noggrant</h2>
+      </div>
+      <div class="grid three reveal">
+        <article class="review">
+          <p>“Vi har haft samma städkontakt i fyra år. De håller tiderna och kommunicerar alltid i förväg.”</p>
+          <span class="reviewer">Sara, Västerås</span>
+        </article>
+        <article class="review">
+          <p>“Flyttstädningen gick snabbt och utan en enda anmärkning från besiktningsmannen.”</p>
+          <span class="reviewer">Oskar, Enköping</span>
+        </article>
+        <article class="review">
+          <p>“Kontoret känns fräscht varje morgon. De tänker på detaljerna som skärmar och handtag.”</p>
+          <span class="reviewer">Fatima, Eskilstuna</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta reveal" id="contact">
+      <div class="cta__content">
+        <h2>Låt oss ta hand om städningen</h2>
+        <p>Fyll i dina uppgifter så återkommer vi inom 24 timmar med ett förslag.</p>
+        <form class="contact-form">
+          <div class="form-row">
+            <label>
+              Namn
+              <input type="text" name="name" placeholder="Ditt namn" required>
+            </label>
+            <label>
+              E-post
+              <input type="email" name="email" placeholder="namn@exempel.se" required>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              Ort
+              <input type="text" name="city" placeholder="Västerås, Eskilstuna ...">
+            </label>
+            <label>
+              Tjänst
+              <select name="service">
+                <option>Hemstädning</option>
+                <option>Flyttstädning</option>
+                <option>Kontor & butik</option>
+                <option>Golvslipning</option>
+                <option>Fönsterputsning</option>
+                <option>Annat</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            Berätta kort
+            <textarea name="message" rows="3" placeholder="Önskat upplägg, datum, nyckelhantering..."></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="button button--primary">Skicka förfrågan</button>
+            <span class="small-print">Vi svarar inom en arbetsdag. Ingen massutskick, bara ett personligt svar.</span>
+          </div>
+        </form>
+      </div>
+      <div class="cta__aside">
+        <div class="contact-card">
+          <h3>Ring oss</h3>
+          <p>010-123 45 67</p>
+          <small>Vardagar 08–18</small>
+        </div>
+        <div class="contact-card">
+          <h3>Besök</h3>
+          <p>Stora Torget 5<br>721 00 Västerås</p>
+          <small>Boka tid innan besök</small>
+        </div>
+        <div class="contact-card">
+          <h3>Trygghet</h3>
+          <p>Försäkrade uppdrag och bakgrundskollad personal.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Mälardalen Rent &amp; Fint</strong>
+      <p>Skinande rena hem och arbetsplatser sedan 2009.</p>
+    </div>
+    <div class="footer__links">
+      <a href="#services">Tjänster</a>
+      <a href="#contact">Kontakt</a>
+    </div>
+    <div class="footer__meta">
+      <span>Org.nr 559000-0000</span>
+      <span>GDPR &amp; integritet</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
